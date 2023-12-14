@@ -31,7 +31,7 @@ Exemple de sortie :
 
 Utilisez les techniques de pair programming et de Test Driven Developpment pour réaliser ce programme.
 
-## Modalité
+## Modalité pédagogique
 
 ### Pairprogramming 
 
@@ -55,7 +55,7 @@ Obligation d'utiliser Visual Studio avec l'explorateur de test (Test > Explorate
 Print ($"15 est-t-il un multiple de 5 ? {15 % 5 == 0 ? 'Oui' : 'Non'} !);
 ```
 
-## Modalité
+## Modalité d'évaluation
 
 CRAFT !!
 * nom de méthode / variable explicites
@@ -66,3 +66,7 @@ CRAFT !!
 * 80 caractères maximum par ligne
 * commentaire de méthode
 * pas de nombre/texte magique (CONSTANTE à la place)
+
+## Ressources
+
+- [Paramètres pour les TU en Nunit](https://learn.microsoft.com/fr-fr/dotnet/core/testing/unit-testing-with-nunit#adding-more-features)
