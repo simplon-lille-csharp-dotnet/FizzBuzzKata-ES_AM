@@ -1,9 +1,29 @@
-﻿namespace FizzBuzz;
+﻿
+namespace FizzBuzz;
 
-public static class FizzBuzz
+public class FizzBuzz
 {
-    public static int PrintFizzBuzz()
+    public static string PrintFizzBuzz(int entierAffiche)
     {
-        return 6 * 9;
+        int fizz = entierAffiche % 3;
+        int buzz = entierAffiche % 5;
+
+        if (fizz == 0 && buzz == 0)
+        {
+            return "FizzBuzz";
+        }
+        if (fizz == 0)
+        {
+             return "Fizz";
+        }
+        if (buzz == 0)
+        {
+            return "Buzz";
+        }
+        else
+        {
+             return entierAffiche.ToString();  
+        }
+
     }
 }

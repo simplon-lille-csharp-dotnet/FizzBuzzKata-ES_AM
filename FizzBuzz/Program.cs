@@ -1,10 +1,17 @@
-﻿namespace FizzBuzz
+﻿namespace FizzBuzz;
+
+internal class Program
 {
-    internal class Program
+    FizzBuzz fizzBuzz = new FizzBuzz();
+
+
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        int number = 100;
+
+        for (int i = 1; i <= number; i++)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(FizzBuzz.PrintFizzBuzz(i));
         }
     }
 }
