@@ -52,7 +52,7 @@ Obligation d'utiliser Visual Studio avec l'explorateur de test (Test > Explorate
 ### Tips and Trick
 
 ```csharp
-Print ($"15 est il-t-il multiple de 5 ? {15 % 5 == 0 ? 'Oui' : 'Non'} !);
+Print ($"15 est-t-il un multiple de 5 ? {15 % 5 == 0 ? 'Oui' : 'Non'} !);
 ```
 
 ## Modalité
