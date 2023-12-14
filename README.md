@@ -38,7 +38,7 @@ Utilisez les techniques de pair programming et de Test Driven Developpment pour 
 * 1 personne au clavier (le conducteur) qui a interdiction de parler
 * 1 personne qui dit quoi faire (le navigateur) de manière globale (pas de détail)
 
-On tourne toutes les 5 minutes [timer en ligne où rentrer vos noms et intervertir quand c'est terminé](http://mobtimer.zoeetrope.com/)
+On tourne toutes les 10 minutes (4 rotations) [timer en ligne où rentrer vos noms et intervertir quand c'est terminé](http://mobtimer.zoeetrope.com/)
 
 ### TDD
 
